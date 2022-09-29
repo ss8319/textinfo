@@ -10,6 +10,9 @@ counts by individual file.
 To do:  
 Would be better to replace the character_summary with a fixed Excel sheet that calculates the totals.
 
+Eg:
+python -m Python.charfreq --input_folder cmo_k --output_folder cmo_k
+
 ### transliterate.py
 A hard coded transliteration table that converts Arabic characters whose unicode script is 'Inherited'  to other Arabic characters. This is in an attempt to overcome the bug (now fixed) in SentencePiece that breaks words when it encounters an inherited script character.
 
